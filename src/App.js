@@ -5,7 +5,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>NationBuilder</h1>
+      <header className="App-header jumbotron">
+        <img src={logo} className="App-logo" alt="logo" />
+        <br></br>
+        <div className='App-text'>
+          <h3> NationBuilder </h3>
+          <h5>Frontend Technical Test</h5>
+        </div>
+      </header>
     </div>
   );
 }
