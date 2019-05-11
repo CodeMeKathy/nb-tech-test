@@ -1,0 +1,62 @@
+.settings-wrapper{
+  min-height: 100vw;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+#avatar {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  margin-top: 38px;
+  margin-left: 975px;
+}
+
+.setting-navbar {
+  margin-left: 20px;
+  border-style: none;
+}
+
+.settings-title {
+  font-family: 'aktiv_groteskbold';
+  text-align: start;
+  margin-top: 31px;
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: #000000;
+  font-family: 'aktiv_groteskmedium';
+  font-size: 14px;
+
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav-link:focus {
+  border-style: none;
+
+}
+
+.nav-link:hover {
+  color: #1498BE !important;
+  border-style: none;
+}
+
+.nav-link.active {
+  color: #1498BE !important;
+  border-style: none;
+  border-bottom: 3px solid #1498BE !important;
+}
+
+.nav-link:active {
+  border-style: none;
+}
+
+.nav-tabs {
+  border-style: none;
+}
