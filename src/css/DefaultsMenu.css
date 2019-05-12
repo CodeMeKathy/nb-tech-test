@@ -1,0 +1,47 @@
+html, body {
+  background: #EDEEEF;
+  color: #717171 !important;
+}
+
+.defaults-navbar {
+  padding-top: 20px;
+}
+
+.defaults-navbar {
+  margin-left: 20px;
+
+}
+
+.defaults-link {
+  color: #717171;
+  font-family: 'aktiv_groteskmedium';
+  font-size: 14px;
+
+}
+
+.defaults a {
+  text-decoration: none;
+}
+
+.defaults-link:focus {
+  border-style: none;
+
+}
+
+.defaults-link:hover {
+  color: #1498BE !important;
+  border-style: none;
+}
+
+.defaults-link.active {
+  color: #1498BE !important;
+  border-style: none;
+}
+
+.defaults-link:active {
+  border-style: none;
+}
+
+.defaults-tabs {
+  border-style: none;
+}
