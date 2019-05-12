@@ -1,6 +1,6 @@
 .settings-wrapper{
-  min-height: 100vw;
-  height: 147px;
+  /* min-height: 100vw; */
+  height: 141px !important;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -11,12 +11,12 @@
   width: 30px;
   position: absolute;
   margin-top: 38px;
-  margin-left: 975px;
+  margin-left: 1040px !important;
 }
 
 .setting-navbar {
   margin-left: 20px;
-  border-style: none;
+
 }
 
 .settings-title {
@@ -26,37 +26,71 @@
   margin-left: 30px;
 }
 
-.nav-link {
+.settings-link {
   color: #000000;
   font-family: 'aktiv_groteskmedium';
   font-size: 14px;
 
 }
 
-.nav a {
+.settings a {
   text-decoration: none;
 }
 
-.nav-link:focus {
+.settings-link:focus {
   border-style: none;
 
 }
 
-.nav-link:hover {
+.settings-link:hover {
   color: #1498BE !important;
   border-style: none;
 }
 
-.nav-link.active {
+.settings-link.active {
   color: #1498BE !important;
   border-style: none;
   border-bottom: 3px solid #1498BE !important;
 }
 
-.nav-link:active {
+.settings-link:active {
   border-style: none;
 }
 
-.nav-tabs {
+.settings-tabs {
   border-style: none;
 }
+
+
+@media screen and (max-width: 960px) {
+  #avatar {
+    /* position: absolute; */
+    margin-top: 38px;
+    margin-left: 56rem !important;
+  }
+  
+}
+
+/* @media screen and (max-width: 1218px) {
+  #avatar {
+    margin-top: 38px;
+    margin-left: 71rem !important;
+  }
+
+  .settings-tabs {
+    margin-left: 8px !important;
+  }
+  
+}
+
+@media screen and (max-width: 1386px) {
+  #avatar {
+    margin-top: 38px;
+    margin-left: 78rem;
+  }
+
+  .settings-tabs {
+    margin-left: 8px !important;
+  }
+  
+} */
