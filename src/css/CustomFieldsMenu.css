@@ -78,6 +78,7 @@ label.people-label {
   float: left !important;
   color: #000000;
   padding-left: 20px;
+  font-size: 15px;
 }
 
 .people-input{
@@ -85,6 +86,7 @@ label.people-label {
   margin-top: 15px;
   height: 43px;
   margin-left: 20px;
+
 }
 
 #fieldTypeInput {
@@ -105,6 +107,47 @@ label.people-label {
 .custom-btn-div {
   margin-left: 20px;
 }
+
+table {
+  text-align: left;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #FBFDFE;
+}
+
+.edit-btn {
+  color: #1498BE;
+  font-family: 'aktiv_groteskbold';
+  font-size: 11px;
+  width: .2em;
+  padding-right: 0px;
+  padding-top: 15px !important;
+}
+
+.table-header {
+  font-family: 'aktiv_groteskmedium';
+  font-size: 14px;
+  color: #8F8F8F;
+}
+
+.col1 {
+  width: .2em;
+}
+
+.col2 {
+  padding-left: 0px !important;
+}
+
+.table-header {
+  border-top: none !important;
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.del-btn {
+  width: .2em !important;
+}
+
 
 
 
@@ -136,3 +179,4 @@ label.people-label {
   }
   
 }
+
