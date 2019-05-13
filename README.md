@@ -1,6 +1,6 @@
-#NationBuilder
+# NationBuilder
 
-###Frontend Developer Technical Test
+### Frontend Developer Technical Test
 
 A project that brings the provided pre-designed custom fields user panel markup to the screen with responsivity down to 960 pixels.
 
@@ -48,7 +48,7 @@ These instructions will guide one in obtaining a copy of the the project on your
 
 ## Tech Stack & Frameworks
 
-###Built With:
+### Built With:
 
 * [Create React App](https://github.com/facebook/create-react-app)
 * [Bootstrapped](https://getbootstrap.com) 
