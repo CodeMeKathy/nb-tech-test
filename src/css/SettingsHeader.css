@@ -1,26 +1,25 @@
 .settings-wrapper{
-  /* min-height: 100vw; */
-  height: 141px !important;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
+
 }
 
 #avatar {
   height: 30px;
   width: 30px;
   position: absolute;
-  margin-top: 38px;
-  margin-left: 1040px !important;
+  margin-top: 25px;
+  margin-left: 1030px !important;
 }
 
 .setting-navbar {
   margin-left: 20px;
-
 }
 
 .settings-title {
   font-family: 'aktiv_groteskbold';
+  font-size: 30px;
   text-align: start;
   margin-top: 31px;
   margin-left: 30px;
@@ -59,38 +58,23 @@
 
 .settings-tabs {
   border-style: none;
+  /* margin-bottom: -10px !important; */
 }
 
 
 @media screen and (max-width: 960px) {
   #avatar {
     /* position: absolute; */
-    margin-top: 38px;
+    margin-top: 26px !important;
     margin-left: 56rem !important;
   }
-  
-}
-
-/* @media screen and (max-width: 1218px) {
-  #avatar {
-    margin-top: 38px;
-    margin-left: 71rem !important;
-  }
-
   .settings-tabs {
-    margin-left: 8px !important;
+    margin-left: 15px !important;
+  }
+  .settings-link {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
   }
   
 }
 
-@media screen and (max-width: 1386px) {
-  #avatar {
-    margin-top: 38px;
-    margin-left: 78rem;
-  }
-
-  .settings-tabs {
-    margin-left: 8px !important;
-  }
-  
-} */
