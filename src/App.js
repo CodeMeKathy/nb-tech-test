@@ -1,8 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 
 import SettingsHeader from './components/SettingsHeader.js'
 import DefaultsMenu from './components/DefaultsMenu'
+import CustomFieldsMenu from './components/CustomFieldsMenu'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -14,6 +15,8 @@ function App() {
     <div className="App">
       <SettingsHeader />
       <DefaultsMenu />
+      <CustomFieldsMenu />
+
     </div>
   );
 }
