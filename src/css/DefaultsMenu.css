@@ -5,11 +5,7 @@ html, body {
 
 .defaults-navbar {
   padding-top: 20px;
-}
-
-.defaults-navbar {
   margin-left: 20px;
-
 }
 
 .defaults-link {
@@ -44,4 +40,16 @@ html, body {
 
 .defaults-tabs {
   border-style: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+  .defaults-tabs {
+    margin-left: 15px !important;
+  }
+  .defaults-link {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+  }
+  
 }

@@ -11,13 +11,13 @@ export default class DefaultsMenu extends React.Component {
                 <a className="nav-link defaults-link" href="#">Basics</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link defaults-link active" href="#">Custom fields</a>
+                <a className="nav-link active defaults-link" href="#">Custom fields</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link defaults-link" href="#">Social capital</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link defaults-link" href="#">Finacne types</a>
+                <a className="nav-link defaults-link" href="#">Finance types</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link defaults-link" href="#">Dashboards</a>
