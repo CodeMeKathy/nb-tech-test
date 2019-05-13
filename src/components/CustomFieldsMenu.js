@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/CustomFieldsMenu.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class CustomFieldsMenu extends React.Component {
   render() {
@@ -49,6 +50,48 @@ export default class CustomFieldsMenu extends React.Component {
               </div>
            </div>
           </form>
+
+          <div className="table-responsive">
+            <table className="table table-hover">
+              <thead>
+                <tr className='table-header'>
+                  <th scope="col" className='table-header col1'></th>
+                  <th scope="col" className='table-header col2'>Name</th>
+                  <th scope="col" className='table-header'>Slug</th>
+                  <th scope="col" className='table-header'>Type</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" className='edit-btn col1'>Edit</th>
+                  <td className='col2'>Nation slug</td>
+                  <td>nationslug</td>
+                  <td>Text</td>
+                  <td className="dropdown del-btn id='btn1'"><a className="btn btn-default actionButton" data-toggle="dropdown"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className='edit-btn col1'>Edit</th>
+                  <td className='col2'></td>
+                  <td></td>
+                  <td></td>
+                  <td className="dropdown del-btn"><a className="btn btn-default actionButton" data-toggle="dropdown"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' /></a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className='edit-btn col1'>Edit</th>
+                  <td className='col2'></td>
+                  <td></td>
+                  <td></td>
+                  <td className="dropdown del-btn"><a className="btn btn-default actionButton" data-toggle="dropdown"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul id="contextMenu" className="dropdown-menu" role="menu">
+              <li><a tabIndex="-1" href="#" className="delLink">Delete</a></li>
+            </ul>
+          </div>
       </div>
 
     )
