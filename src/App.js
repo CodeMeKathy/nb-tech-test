@@ -7,8 +7,9 @@ import CustomFieldsMenu from './components/CustomFieldsMenu'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faSearch)
+library.add(faSearch, faChevronDown)
 
 function App() {
   return (
