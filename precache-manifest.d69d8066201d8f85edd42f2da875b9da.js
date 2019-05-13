@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51209f48bbf65b9a7b792407921ba2ba",
+    "revision": "0e5e1381bba2e51fff244b44a4e1c262",
     "url": "/nb-tech-test/index.html"
   },
   {
-    "revision": "cba77c66d0370cf8b6cf",
-    "url": "/nb-tech-test/static/css/main.082d73a9.chunk.css"
+    "revision": "6d773155e2d6ae1a6101",
+    "url": "/nb-tech-test/static/css/main.1f89d6bc.chunk.css"
   },
   {
-    "revision": "2e0129063922e3bb197a",
-    "url": "/nb-tech-test/static/js/2.b41502e9.chunk.js"
+    "revision": "6ef278b295aee9e632e9",
+    "url": "/nb-tech-test/static/js/2.13a1a4cc.chunk.js"
   },
   {
-    "revision": "cba77c66d0370cf8b6cf",
-    "url": "/nb-tech-test/static/js/main.0e3e9e26.chunk.js"
+    "revision": "6d773155e2d6ae1a6101",
+    "url": "/nb-tech-test/static/js/main.7596816e.chunk.js"
   },
   {
     "revision": "3b6f5d4292e876d5c7f4",
@@ -114,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b7946aaf28ca4fa1fa0ed7bbbd8832f9",
     "url": "/nb-tech-test/static/media/aktivgrotesk_thit-webfont.b7946aaf.woff2"
-  },
-  {
-    "revision": "057c2d0dd301c661bef8583aa870c326",
-    "url": "/nb-tech-test/static/media/logo.057c2d0d.svg"
   },
   {
     "revision": "c98371896a9e67f50a29fc165db36789",
