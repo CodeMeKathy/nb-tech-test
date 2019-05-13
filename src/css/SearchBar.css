@@ -4,10 +4,6 @@
   padding-top: 5px !important;
 }
 
-/* .form-control {
-  padding-top: 3px;
-} */
-
 .search-people-div {
   border: 1px solid grey;
   position: absolute;
@@ -68,21 +64,3 @@
   }
   
 }
-
-/* 
-@media screen and (width: 1386px) {
-  .search-input {
-    width: 300px;
-    border: none;  
-  }
-
-  .search-people-div {
-    margin-left: 55rem;
-  }
-
-  .settings-link {
-    padding: 25px;
-  }
-  
-  
-} */
