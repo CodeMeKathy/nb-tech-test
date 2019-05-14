@@ -1,9 +1,9 @@
 .custom-menu-wrapper {
   background: white;
-  /* height: 100vh; */
-  width: 93vw;
+  width: 88vw;
   justify-content: center;
-  margin: auto;  margin-left: 35px;
+  margin: auto;  
+  margin-left: 5.5em;
 }
 
 .custom-navbar {

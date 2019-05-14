@@ -3,6 +3,10 @@ html, body {
   color: #717171 !important;
 }
 
+.defaults-menu-wrapper{
+  margin-left: 4.4em; 
+}
+
 .defaults-navbar {
   padding-top: 20px;
   margin-left: 20px;
