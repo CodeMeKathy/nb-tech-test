@@ -53,3 +53,7 @@ These instructions will guide one in obtaining a copy of the project on a local 
 * [Create React App](https://github.com/facebook/create-react-app)
 * [Bootstrapped](https://getbootstrap.com) 
 * [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/react)
+
+## Project Status
+
+This project is currently in development. Form functionality to add and delete items with the ability to edit records via the edit button is in progress.
