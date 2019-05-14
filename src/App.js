@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 
+import SidebarNav from './components/SidebarNav.js'
 import SettingsHeader from './components/SettingsHeader.js'
 import DefaultsMenu from './components/DefaultsMenu'
 import CustomFieldsMenu from './components/CustomFieldsMenu'
@@ -14,6 +15,7 @@ library.add(faSearch, faChevronDown)
 function App() {
   return (
     <div className="App">
+      <SidebarNav />
       <SettingsHeader />
       <DefaultsMenu />
       <CustomFieldsMenu />
