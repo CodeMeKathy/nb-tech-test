@@ -12,21 +12,6 @@
   color: #C2C2C2 !important;
 }
 
-/* .sidebar .list-group-header {
-  width: 5.6em;
-  border-radius: 0;
-  color: #C2C2C2;
-  font-family: 'aktiv_groteskmedium';
-  font-size: 15px;
-  border-left: 0;
-  border-right: 0;
-  border-style: none;
-  white-space: nowrap;
-  text-decoration: none;
-  overflow: hidden;
-
-} */
-
 .sidebar .list-group-item {
   width: 5.6em;
   border-radius: 0;
@@ -65,7 +50,7 @@ img.nav-icon {
 /* Media Queries */
 
 @media screen and (max-width: 960px) {
-  #sidebar {
-    height: calc(100% + 680px) !important;
+  .sidebar {
+    height: calc(100% + 730px) !important;
   }
 }
