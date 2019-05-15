@@ -72,17 +72,17 @@ export default class CustomFieldsMenu extends React.Component {
                 </tr>
                 <tr>
                   <th scope="row" className='edit-btn col1'>Edit</th>
-                  <td className='col2'></td>
-                  <td></td>
-                  <td></td>
+                  <td className='col2'>DNS provider</td>
+                  <td>dns_provider</td>
+                  <td>Text</td>
                   <td className="dropdown del-btn"><a className="btn btn-default actionButton" data-toggle="dropdown"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' /></a>
                   </td>
                 </tr>
                 <tr>
                   <th scope="row" className='edit-btn col1'>Edit</th>
-                  <td className='col2'></td>
-                  <td></td>
-                  <td></td>
+                  <td className='col2'>Web designer</td>
+                  <td>web_designer</td>
+                  <td>Checkbox</td>
                   <td className="dropdown del-btn"><a className="btn btn-default actionButton" data-toggle="dropdown"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' /></a>
                   </td>
                 </tr>
