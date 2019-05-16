@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nb-tech-test/static/css/main.92e16dc1.chunk.css",
-    "main.js": "/nb-tech-test/static/js/main.1c36730f.chunk.js",
-    "main.js.map": "/nb-tech-test/static/js/main.1c36730f.chunk.js.map",
+    "main.js": "/nb-tech-test/static/js/main.b40d1bce.chunk.js",
+    "main.js.map": "/nb-tech-test/static/js/main.b40d1bce.chunk.js.map",
     "runtime~main.js": "/nb-tech-test/static/js/runtime~main.1e9dc664.js",
     "runtime~main.js.map": "/nb-tech-test/static/js/runtime~main.1e9dc664.js.map",
     "static/js/2.35d59041.chunk.js": "/nb-tech-test/static/js/2.35d59041.chunk.js",
     "static/js/2.35d59041.chunk.js.map": "/nb-tech-test/static/js/2.35d59041.chunk.js.map",
     "index.html": "/nb-tech-test/index.html",
-    "precache-manifest.8cd047e7008b0e5eb23dbe0f16421823.js": "/nb-tech-test/precache-manifest.8cd047e7008b0e5eb23dbe0f16421823.js",
+    "precache-manifest.a088d492b8e840f43494528eebfdc6cc.js": "/nb-tech-test/precache-manifest.a088d492b8e840f43494528eebfdc6cc.js",
     "service-worker.js": "/nb-tech-test/service-worker.js",
     "static/css/main.92e16dc1.chunk.css.map": "/nb-tech-test/static/css/main.92e16dc1.chunk.css.map",
     "static/media/App.css": "/nb-tech-test/static/media/merriweather-regular-webfont.d5d8e039.woff2"

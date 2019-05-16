@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "205c232e495e6c509b80a39d2aab506f",
+    "revision": "42d7429dccfb211ec91a4d54ea12fe76",
     "url": "/nb-tech-test/index.html"
   },
   {
-    "revision": "da2fa32a470dc8996beb",
+    "revision": "0d70fc1ebaab556e1465",
     "url": "/nb-tech-test/static/css/main.92e16dc1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nb-tech-test/static/js/2.35d59041.chunk.js"
   },
   {
-    "revision": "da2fa32a470dc8996beb",
-    "url": "/nb-tech-test/static/js/main.1c36730f.chunk.js"
+    "revision": "0d70fc1ebaab556e1465",
+    "url": "/nb-tech-test/static/js/main.b40d1bce.chunk.js"
   },
   {
     "revision": "3b6f5d4292e876d5c7f4",
