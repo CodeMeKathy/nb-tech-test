@@ -148,7 +148,9 @@ table {
   width: .2em !important;
 }
 
-
+a.btn.btn-default.actionButton {
+  padding-top: 0px !important;
+}
 
 
 /* Media Queries */
