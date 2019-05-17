@@ -5,10 +5,10 @@
 
 }
 
-.sidebar-nav a:hover {
+.sidebar a:hover, .sidebar-nav a:hover, .list-group.panel:hover  {
   width: 15em !important; 
-  /* left: 0 !important; */
-
+  overflow: visible !important;
+  padding-left: -30px !important;
 }
 
 /* .sidebar:hover, nav.sidebar.expanded {
