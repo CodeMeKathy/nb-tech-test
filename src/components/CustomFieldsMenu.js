@@ -67,7 +67,11 @@ export default class CustomFieldsMenu extends React.Component {
                   <td className='col2'>Nation slug</td>
                   <td>nationslug</td>
                   <td>Text</td>
-                  <td className="dropdown del-btn id='btn1'"><a className="btn btn-default actionButton" data-toggle="dropdown"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' /></a>
+                  <td className="dropdown del-btn id='btn1'"><a className="btn btn-default actionButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' />
+                  </a>
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a className="dropdown-item" href="#">Delete</a>
+                    </div>                  
                   </td>
                 </tr>
                 <tr>
@@ -75,7 +79,11 @@ export default class CustomFieldsMenu extends React.Component {
                   <td className='col2'>DNS provider</td>
                   <td>dns_provider</td>
                   <td>Text</td>
-                  <td className="dropdown del-btn"><a className="btn btn-default actionButton" data-toggle="dropdown"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' /></a>
+                  <td className="dropdown del-btn id='btn2'"><a className="btn btn-default actionButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' />
+                  </a>
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a className="dropdown-item" href="#">Delete</a>
+                    </div>                  
                   </td>
                 </tr>
                 <tr>
@@ -83,14 +91,15 @@ export default class CustomFieldsMenu extends React.Component {
                   <td className='col2'>Web designer</td>
                   <td>web_designer</td>
                   <td>Checkbox</td>
-                  <td className="dropdown del-btn"><a className="btn btn-default actionButton" data-toggle="dropdown"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' /></a>
+                  <td className="dropdown del-btn id='btn3'"><a className="btn btn-default actionButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <FontAwesomeIcon icon="chevron-down" id='chevron-down' />
+                  </a>
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a className="dropdown-item" href="#">Delete</a>
+                    </div>                  
                   </td>
                 </tr>
               </tbody>
             </table>
-            <ul id="contextMenu" className="dropdown-menu" role="menu">
-              <li><a tabIndex="-1" href="#" className="delLink">Delete</a></li>
-            </ul>
           </div>
       </div>
 
