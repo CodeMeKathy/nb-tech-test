@@ -1,0 +1,45 @@
+#record-wrapper {
+	background: white;
+	width: 88vw;
+	justify-content: center;
+	margin: auto;
+	margin-left: 3em !important;
+	margin-top: -15px;
+}
+
+table {
+	text-align: left;
+}
+
+.table-hover tbody tr:hover {
+	background-color: #fbfdfe;
+}
+
+.edit-btn {
+	color: #1498be;
+	font-family: 'aktiv_groteskbold';
+	font-size: 11px;
+	width: 0.2em;
+	padding-right: 0px;
+	padding-top: 15px !important;
+}
+
+.table-header {
+	font-family: 'aktiv_groteskmedium';
+	font-size: 14px;
+	color: #8f8f8f;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+table-header.edit-header {
+	padding-left: -15px !important;
+}
+
+.recordItem {
+	width: 341px !important;
+}
+
+.newRecordItem {
+	width: 341px !important;
+}

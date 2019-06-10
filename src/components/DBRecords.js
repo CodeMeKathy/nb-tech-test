@@ -1,6 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import '../css/Records.css'
+
 class DBRecords extends React.Component {
 	render() {
 		return (
