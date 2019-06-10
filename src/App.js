@@ -29,6 +29,12 @@ class App extends React.Component {
 		this.setState({ tableData })
 	}
 
+	addNewRecord = (record) => {
+		const tableData = [...this.state.tableData]
+		tableData.push(record)
+		this.setState({ tableData })
+	}
+
 	deleteRecord = (record) => {
 		const tableData = [...this.state.tableData]
 		const recordIndex = tableData.indexOf(record)
@@ -49,7 +55,11 @@ class App extends React.Component {
 				<SidebarNav />
 				<SettingsHeader />
 				<DefaultsMenu />
-				<CustomFieldsMenu tableData={this.state.tableData} deleteRecord={this.deleteRecord} />
+				<CustomFieldsMenu 
+          tableData={this.state.tableData}
+					addNewRecord={this.addNewRecord} 
+          deleteRecord={this.deleteRecord}
+        />
 
 				<ul>
 					{tableData.map((key) => {

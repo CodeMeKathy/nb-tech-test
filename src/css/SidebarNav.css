@@ -1,15 +1,75 @@
 .sidebar {
-  position: absolute;
-  height: calc(100% + 300px) !important;
-  background-color: #000000;
-
+	position: absolute;
+	height: calc(100% + 300px) !important;
+	background-color: #000000;
 }
 
-.sidebar a:hover, .sidebar-nav a:hover, .list-group.panel:hover  {
-  width: 15em !important; 
-  overflow: visible !important;
-  padding-left: -30px !important;
+.sidebar:hover {
+	width: 15em !important;
 }
+
+.sidebar:hover,
+a.sidebar,
+a.list-group-item {
+	overflow: visible !important;
+}
+
+a.sidebar:hover,
+a.list-group-item:hover {
+	overflow: visible !important;
+}
+
+.sidebar .list-group-item {
+	width: 5.1em;
+	border-radius: 0;
+	background-color: #000000;
+	color: #c2c2c2;
+	font-family: 'aktiv_groteskmedium';
+	font-size: 15px;
+	border-left: 0;
+	border-right: 0;
+	border-style: none;
+	white-space: nowrap;
+	text-decoration: none;
+	overflow: hidden !important;
+}
+
+.nav-header {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin-top: 15px !important;
+	margin-bottom: 20px !important;
+}
+
+img.header-icon {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+img.nav-icon {
+	margin-right: 25px;
+	margin-left: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 960px) {
+	.sidebar {
+		height: calc(100% + 730px) !important;
+	}
+}
+
+/* TODO: Old Code - Possible Delete */
+
+/* .sidebar a:hover,
+.sidebar-nav a:hover,
+.list-group.panel:hover,
+.list-group-item a:hover,
+.sidebar a:hover {
+	width: 15em !important;
+	overflow: visible !important;
+	padding-left: -30px !important;
+} */
 
 /* .sidebar:hover, nav.sidebar.expanded {
   width: 15em !important;
@@ -17,45 +77,3 @@
   background-color: #000000;
   color: #C2C2C2 !important;
 } */
-
-.sidebar .list-group-item {
-  width: 5.1em;
-  border-radius: 0;
-  background-color: #000000;
-  color: #C2C2C2;
-  font-family: 'aktiv_groteskmedium';
-  font-size: 15px;
-  border-left: 0;
-  border-right: 0;
-  border-style: none;
-  white-space: nowrap;
-  text-decoration: none;
-  overflow: hidden;
-}
-
-.nav-header{
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  margin-top: 15px !important;
-  margin-bottom: 20px !important;
-}
-
-img.header-icon {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-img.nav-icon {
-  margin-right: 25px;
-  margin-left: 10px;
-}
-
-
-
-/* Media Queries */
-
-@media screen and (max-width: 960px) {
-  .sidebar {
-    height: calc(100% + 730px) !important;
-  }
-}
