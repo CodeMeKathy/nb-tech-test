@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nb-tech-test/static/css/main.5dba6c97.chunk.css",
-    "main.js": "/nb-tech-test/static/js/main.3ff3ee27.chunk.js",
-    "main.js.map": "/nb-tech-test/static/js/main.3ff3ee27.chunk.js.map",
+    "main.css": "/nb-tech-test/static/css/main.663d5cb8.chunk.css",
+    "main.js": "/nb-tech-test/static/js/main.ebd78f42.chunk.js",
+    "main.js.map": "/nb-tech-test/static/js/main.ebd78f42.chunk.js.map",
     "runtime~main.js": "/nb-tech-test/static/js/runtime~main.1e9dc664.js",
     "runtime~main.js.map": "/nb-tech-test/static/js/runtime~main.1e9dc664.js.map",
-    "static/js/2.35d59041.chunk.js": "/nb-tech-test/static/js/2.35d59041.chunk.js",
-    "static/js/2.35d59041.chunk.js.map": "/nb-tech-test/static/js/2.35d59041.chunk.js.map",
+    "static/js/2.638c0cf0.chunk.js": "/nb-tech-test/static/js/2.638c0cf0.chunk.js",
+    "static/js/2.638c0cf0.chunk.js.map": "/nb-tech-test/static/js/2.638c0cf0.chunk.js.map",
     "index.html": "/nb-tech-test/index.html",
-    "precache-manifest.00678c9e2533606e5cb9a53c46a05b00.js": "/nb-tech-test/precache-manifest.00678c9e2533606e5cb9a53c46a05b00.js",
+    "precache-manifest.50755e82a0912fe26ebf4a163c5997f2.js": "/nb-tech-test/precache-manifest.50755e82a0912fe26ebf4a163c5997f2.js",
     "service-worker.js": "/nb-tech-test/service-worker.js",
-    "static/css/main.5dba6c97.chunk.css.map": "/nb-tech-test/static/css/main.5dba6c97.chunk.css.map",
+    "static/css/main.663d5cb8.chunk.css.map": "/nb-tech-test/static/css/main.663d5cb8.chunk.css.map",
     "static/media/App.css": "/nb-tech-test/static/media/merriweather-regular-webfont.d5d8e039.woff2"
   }
 }
