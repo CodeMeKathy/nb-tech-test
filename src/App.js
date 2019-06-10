@@ -1,27 +1,49 @@
 import React from 'react'
-import './App.css'
 
 import SidebarNav from './components/SidebarNav.js'
 import SettingsHeader from './components/SettingsHeader.js'
 import DefaultsMenu from './components/DefaultsMenu'
 import CustomFieldsMenu from './components/CustomFieldsMenu'
 
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import './App.css'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faSearch, faChevronDown)
 
-function App() {
-  return (
-    <div className="App">
-      <SidebarNav />
-      <SettingsHeader />
-      <DefaultsMenu />
-      <CustomFieldsMenu />
+class App extends React.Component {
+	state = {
+		tableData: [],
+		records: [
+			{ name: 'Nation slug', slug: 'nationslug', type: 'Text' },
+			{ name: 'DNS provider', slug: 'dns_provider', type: 'Text' },
+			{ name: 'Web designer', slug: 'web_designer', type: 'Checkbox' }
+		]
+	}
 
-    </div>
-  );
+	loadTableData = () => {
+		const tableData = [...this.state.records]
+		this.setState({ tableData })
+	}
+
+	componentDidMount = () => {
+		this.loadTableData()
+		console.log(this.state.tableData)
+	}
+
+	render() {
+		const tableData = this.state.tableData
+		return (
+			<div className='App'>
+				<SidebarNav />
+				<SettingsHeader />
+				<DefaultsMenu />
+				<CustomFieldsMenu tableData={this.state.tableData} />
+			</div>
+		)
+	}
 }
 
-export default App;
+export default App
