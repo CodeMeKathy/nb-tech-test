@@ -4,6 +4,7 @@ import SidebarNav from './components/SidebarNav.js'
 import SettingsHeader from './components/SettingsHeader.js'
 import DefaultsMenu from './components/DefaultsMenu'
 import CustomFieldsMenu from './components/CustomFieldsMenu'
+import DBRecords from './components/DBRecords'
 
 import './App.css'
 
@@ -41,6 +42,19 @@ class App extends React.Component {
 				<SettingsHeader />
 				<DefaultsMenu />
 				<CustomFieldsMenu tableData={this.state.tableData} />
+
+        <ul>
+					{tableData.map((key) => {
+						return (
+							<DBRecords
+								key={key.slug}
+								index={key}
+								details={key}
+
+							/>
+						)
+					})}
+				</ul>
 			</div>
 		)
 	}
